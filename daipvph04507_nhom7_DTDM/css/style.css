@@ -712,6 +712,8 @@ ul.callbacks_tabs.callbacks1_tabs {
 .purchase {
   position: absolute;
   right: 7%;
+    top: 757px;
+    height: 31px;
 }
 /* Shutter In Vertical */
 .hvr-shutter-in-vertical {

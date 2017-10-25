@@ -122,12 +122,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li class="active"><a href="Default.aspx"><i> </i>Trang Chủ</a></li>
 					<li ><a href="#" >Laptops & Notebooks</a>
 						<ul class="drop">
-							<li><a href="products.html">Sony(2)</a></li>
-							<li><a href="products.html">Android(4)</a></li>
-							<li><a href="products.html">Apple(7)</a></li>
-							<li><a href="products.html">Acer(53)</a></li>
-							<li><a href="products.html">HP(78)</a></li>
-							<li><a href="products.html">Intel(5)</a></li>
+							<li><a href="produc.aspx">Sony(2)</a></li>
+							<li><a href="produc.aspx">Android(4)</a></li>
+							<li><a href="produc.aspx">Apple(7)</a></li>
+							<li><a href="produc.aspx">Acer(53)</a></li>
+							<li><a href="produc.aspx">HP(78)</a></li>
+							<li><a href="produc.aspx">Intel(5)</a></li>
 						</ul>
 						</li> 						
 						<li><a href="produc.aspx" >  Sản Phẩm</a></li>            
@@ -309,7 +309,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						
 					<div class="clearfix">
 
-                     
+                        <asp:DetailsView ID="DetailsView1" runat="server" Height="120px" Width="202px" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
+                            <AlternatingRowStyle BackColor="White" />
+                            <CommandRowStyle BackColor="#C5BBAF" Font-Bold="True" />
+                            <EditRowStyle BackColor="#7C6F57" />
+                            <FieldHeaderStyle BackColor="#D0D0D0" Font-Bold="True" />
+                            <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+                            <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+                            <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
+                            <RowStyle BackColor="#E3EAEB" />
+                        </asp:DetailsView>
+
+					    <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
 
 					</div>
 					</div>

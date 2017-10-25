@@ -213,7 +213,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 				<div class="banner-bottom">
 					<div class="banner-matter">
-						<p>Áo Dạ $9.99</p> 
+						<p>Áo Dạ </p> 
 						<a href="single.html" class="hvr-shutter-in-vertical ">Purchase</a>
 					</div>
 					<div class="purchase">
@@ -230,7 +230,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<a href="single.html">
                                     <img  src="images/pi.jpg" alt="" /></a>	
 								<div class="top-content">
-									<h5><a href="single.html">Áo Kitty - White</a></h5>
+									<h5><a href="single.html">Áo Kitty</a></h5>
 									<div class="white">
 										<a href="single.html" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2 ">Đặt Hàng</a>
 										<p class="dollar"><span class="in-dollar">VND</span><span>2</span><span>0</span></p>
